@@ -42,3 +42,11 @@ const resolvers = {
 const server = new GraphQLServer({ resolvers, typeDefs })
 server.start(() => console.log('Server running on http://localhost:4000'))
 ```
+
+## How to create a GitHub Token
+
+Simply follow [this guide](https://developer.github.com/v4/guides/forming-calls/#authenticating-with-graphql) and head over to the [token settings on GitHub](https://github.com/settings/tokens).
+
+## Resources
+
+- Github GraphQL Explorer: https://developer.github.com/v4/explorer/
