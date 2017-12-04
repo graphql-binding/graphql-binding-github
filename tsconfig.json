@@ -10,5 +10,5 @@
       "esnext.asynciterable", "es2016", "dom"
     ]
   },
-  "exclude": ["node_modules", "dist", "examples"]
+  "exclude": ["node_modules", "dist", "example"]
 }

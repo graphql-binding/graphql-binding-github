@@ -5,7 +5,7 @@ export default class GitHubLink extends HttpLink {
   constructor(token: string) {
     if (!token) {
       throw new Error(
-        'No Github token provided. Create one here: https://github.com/settings/tokens (Help: https://developer.github.com/v4/guides/forming-calls/#authenticating-with-graphql)',
+        'No Github token provided. Create one here: https://github.com/settings/tokens (Guide: https://developer.github.com/v4/guides/forming-calls/#authenticating-with-graphql)',
       )
     }
     super({
