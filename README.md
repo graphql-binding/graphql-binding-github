@@ -1,11 +1,11 @@
-# GitHub GraphQL Binding
+# GraphQL Binding for GitHub
 
 Embed GitHub's GraphQL API into your server application
 
 ## Install
 
 ```sh
-yarn add github-graphql-binding
+yarn add graphql-binding-github
 ```
 
 ## Example ([Demo](https://graphqlbin.com/Agjcr))
@@ -13,7 +13,7 @@ yarn add github-graphql-binding
 See [example directory](example) for full example application.
 
 ```js
-const { GitHub } = require('github-graphql-binding')
+const { GitHub } = require('graphql-binding-github')
 const { GraphQLServer } = require('graphql-yoga')
 const { importSchema } = require('graphql-import')
 

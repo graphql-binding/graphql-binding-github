@@ -1,4 +1,4 @@
-const { GitHub } = require('github-graphql-binding')
+const { GitHub } = require('graphql-binding-github')
 const { GraphQLServer } = require('graphql-yoga')
 const { importSchema } = require('graphql-import')
 
