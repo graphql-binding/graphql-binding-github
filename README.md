@@ -8,7 +8,7 @@ Embed GitHub's GraphQL API into your server application
 yarn add github-graphql-binding
 ```
 
-## Example ([Demo](https://github-graphql-binding.now.sh/))
+## Example ([Demo](https://graphqlbin.com/Agjcr))
 
 See [example directory](example) for full example application.
 
