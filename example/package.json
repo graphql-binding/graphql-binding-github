@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "start": "node src",
+    "deploy": "now --public && now alias && now rm --yes --safe github-graphql-binding"
+  },
+  "dependencies": {
+    "github-graphql-binding": "^0.1.0",
+    "graphql-import": "^0.1.4",
+    "graphql-yoga": "^0.2.1"
+  },
+  "now": {
+    "alias": "github-graphql-binding"
+  }
+}

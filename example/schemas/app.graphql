@@ -1,0 +1,6 @@
+# import Repository from "./github.graphql"
+
+type Query {
+  hello(name: String): String!
+  favoriteRepos: [Repository!]!
+}
