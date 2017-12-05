@@ -16,9 +16,14 @@ export class GitHub {
       path.join(__dirname, '..', 'schema', 'github.graphql'),
       { encoding: 'utf8' },
     )
-    const schema = makeExecutableSchema({ typeDefs })
+
+    const introspectionSchema = makeExecutableSchema({ typeDefs })
     const link = new GitHubLink(token)
-    this.schema = makeRemoteExecutableSchema({ schema, link })
+
+    this.schema = makeRemoteExecutableSchema({
+      schema: introspectionSchema,
+      link,
+    })
   }
 
   delegate(
