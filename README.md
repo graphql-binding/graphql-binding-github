@@ -37,6 +37,7 @@ const resolvers = {
       )
     },
   },
+  // the following is needed to make interfaces, unions & custom scalars work
   ...github.remoteResolvers(typeDefs),
 }
 
