@@ -37,6 +37,7 @@ const resolvers = {
       )
     },
   },
+  ...github.remoteResolvers(typeDefs),
 }
 
 const server = new GraphQLServer({ resolvers, typeDefs })
