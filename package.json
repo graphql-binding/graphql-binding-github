@@ -1,9 +1,12 @@
 {
   "name": "graphql-binding-github",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "dist/index.js",
   "typings": "./dist/index.d.ts",
-  "files": ["dist", "schema"],
+  "files": [
+    "dist",
+    "schema"
+  ],
   "scripts": {
     "prepublish": "npm run build",
     "build": "rm -rf dist && tsc -d"
@@ -13,10 +16,10 @@
     "apollo-link-http": "^1.3.0",
     "cross-fetch": "^1.1.1",
     "graphql": "^0.11.7",
-    "graphql-tools": "^2.11.0"
+    "graphql-tools": "^2.12.0"
   },
   "devDependencies": {
     "@types/graphql": "^0.11.7",
-    "@types/node": "^8.0.54"
+    "@types/node": "^8.0.56"
   }
 }
