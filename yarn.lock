@@ -2,19 +2,13 @@
 # yarn lockfile v1
 
 
-"@types/events@*":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@types/events/-/events-1.1.0.tgz#93b1be91f63c184450385272c47b6496fd028e02"
-
 "@types/graphql@^0.11.7":
   version "0.11.7"
   resolved "https://registry.yarnpkg.com/@types/graphql/-/graphql-0.11.7.tgz#da39a2f7c74e793e32e2bb7b3b68da1691532dd5"
 
-"@types/node@^8.0.54":
-  version "8.0.54"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-8.0.54.tgz#3fd9357db4af388b79e03845340259440edffde6"
-  dependencies:
-    "@types/events" "*"
+"@types/node@^8.0.56":
+  version "8.0.56"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-8.0.56.tgz#c4652f88d7a677e26ccc16c1485c282ce28f1ce9"
 
 "@types/zen-observable@0.5.3":
   version "0.5.3"
@@ -55,9 +49,9 @@ encoding@^0.1.11:
   dependencies:
     iconv-lite "~0.4.13"
 
-graphql-tools@^2.11.0:
-  version "2.11.0"
-  resolved "https://registry.yarnpkg.com/graphql-tools/-/graphql-tools-2.11.0.tgz#be86d14acfe4ca9411967c6b54bac2eedc0dbb72"
+graphql-tools@^2.12.0:
+  version "2.12.0"
+  resolved "https://registry.yarnpkg.com/graphql-tools/-/graphql-tools-2.12.0.tgz#6286902650537bf7f20ac87159ab5c8b2e9741f8"
   dependencies:
     apollo-utilities "^1.0.1"
     deprecated-decorator "^0.1.6"

@@ -7,7 +7,7 @@ const favoriteRepos = [
   { owner: 'graphql', name: 'graphql-js' },
 ]
 
-const token = ''
+const token = process.env.GITHUB_TOKEN || ''
 const github = new GitHub(token)
 
 const typeDefs = importSchema('schemas/app.graphql')
@@ -22,6 +22,7 @@ const resolvers = {
       )
     },
   },
+  ...github.remoteResolvers(typeDefs),
 }
 
 const server = new GraphQLServer({ resolvers, typeDefs })
