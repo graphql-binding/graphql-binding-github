@@ -1,7 +1,7 @@
 {
   "scripts": {
     "start": "node src",
-    "deploy": "now --public && now alias && now rm --yes --safe graphql-binding-github"
+    "deploy": "now --public -e GITHUB_TOKEN && now alias && now rm --yes --safe graphql-binding-github"
   },
   "dependencies": {
     "graphql-binding-github": "^0.1.1",
