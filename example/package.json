@@ -1,6 +1,8 @@
 {
   "scripts": {
-    "start": "node src",
+    "build": "babel src -d lib",
+    "prestart": "npm run build",
+    "start": "node lib",
     "deploy": "now --public -e GITHUB_TOKEN && now alias && now rm --yes --safe graphql-binding-github"
   },
   "dependencies": {
@@ -10,5 +12,14 @@
   },
   "now": {
     "alias": "graphql-binding-github"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  },
+  "babel": {
+    "presets": ["env"],
+    "plugins": ["transform-object-rest-spread"]
   }
 }

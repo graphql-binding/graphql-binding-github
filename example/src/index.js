@@ -1,29 +1,22 @@
-const { GitHub } = require('graphql-binding-github')
-const { GraphQLServer } = require('graphql-yoga')
-const { importSchema } = require('graphql-import')
+const { GitHub } = require('graphql-binding-github');
+const { GraphQLServer } = require('graphql-yoga');
+const { importSchema } = require('graphql-import');
 
-const favoriteRepos = [
-  { owner: 'graphcool', name: 'graphql-yoga' },
-  { owner: 'graphql', name: 'graphql-js' },
-]
+const favoriteRepos = [{ owner: 'graphcool', name: 'graphql-yoga' }, { owner: 'graphql', name: 'graphql-js' }];
 
-const token = process.env.GITHUB_TOKEN || ''
-const github = new GitHub(token)
+const token = process.env.GITHUB_TOKEN || '';
+const github = new GitHub(token);
 
-const typeDefs = importSchema('schemas/app.graphql')
+const typeDefs = importSchema('schemas/app.graphql');
 const resolvers = {
   Query: {
     hello: (parent, { name }) => `Hello ${name || 'World'}!`,
     favoriteRepos: (parent, args, context, info) => {
-      return Promise.all(
-        favoriteRepos.map(args =>
-          github.delegate('query', 'repository', args, context, info),
-        ),
-      )
-    },
+      return Promise.all(favoriteRepos.map(args => github.delegate('query', 'repository', args, context, info)));
+    }
   },
-  ...github.remoteResolvers(typeDefs),
-}
+  ...github.remoteResolvers(typeDefs)
+};
 
-const server = new GraphQLServer({ resolvers, typeDefs })
-server.start(() => console.log('Server running on http://localhost:4000'))
+const server = new GraphQLServer({ resolvers, typeDefs });
+server.start(() => console.log('Server running on http://localhost:4000'));
