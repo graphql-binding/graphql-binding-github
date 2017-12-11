@@ -10,5 +10,6 @@
   },
   "now": {
     "alias": "graphql-binding-github"
-  }
+  },
+  "engines": { "node": ">=8.0.0" }
 }
