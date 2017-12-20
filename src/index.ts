@@ -1,24 +1,28 @@
 import { IResolvers } from 'graphql-tools/dist/Interfaces'
-import {
-  delegateToSchema,
-  makeExecutableSchema,
-  makeRemoteExecutableSchema,
-} from 'graphql-tools'
+import { delegateToSchema, makeRemoteExecutableSchema } from 'graphql-tools'
 import {
   GraphQLSchema,
   GraphQLResolveInfo,
   GraphQLUnionType,
   GraphQLInterfaceType,
-  GraphQLScalarType,
   buildSchema,
-  GraphQLAbstractType,
 } from 'graphql'
 import * as fs from 'fs'
 import * as path from 'path'
 import GitHubLink from './GitHubLink'
+import { makeProxy } from 'graphql-binding'
+
+export interface Query {
+  [rootField: string]: <T = any>(
+    args?: any,
+    info?: GraphQLResolveInfo | string,
+  ) => Promise<T>
+}
 
 export class GitHub {
   schema: GraphQLSchema
+  query: Query
+  mutation: Query
 
   constructor(token: string) {
     const typeDefs = fs.readFileSync(
@@ -31,6 +35,17 @@ export class GitHub {
     this.schema = makeRemoteExecutableSchema({
       schema: typeDefs,
       link,
+    })
+
+    this.query = makeProxy<Query>({
+      schema: this.schema,
+      fragmentReplacements: {},
+      operation: 'query',
+    })
+    this.mutation = makeProxy<Query>({
+      schema: this.schema,
+      fragmentReplacements: {},
+      operation: 'mutation',
     })
   }
 
@@ -76,8 +91,6 @@ export class GitHub {
           resolvers[typeName] = {
             __resolveType: type.resolveType,
           }
-        } else if (type instanceof GraphQLScalarType) {
-          resolvers[typeName] = type
         }
       })
 

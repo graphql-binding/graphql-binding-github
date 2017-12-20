@@ -31,9 +31,7 @@ const resolvers = {
     hello: (parent, { name }) => `Hello ${name || 'World'}!`,
     favoriteRepos: (parent, args, context, info) => {
       return Promise.all(
-        favoriteRepos.map(args =>
-          github.delegate('query', 'repository', args, context, info),
-        ),
+        favoriteRepos.map(args => github.query.repository(args, info)),
       )
     },
   },
@@ -51,4 +49,4 @@ Simply follow [this guide](https://developer.github.com/v4/guides/forming-calls/
 
 ## Resources
 
-- Github GraphQL Explorer: https://developer.github.com/v4/explorer/
+* Github GraphQL Explorer: https://developer.github.com/v4/explorer/

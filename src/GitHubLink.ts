@@ -1,4 +1,4 @@
-import { FetchOptions, HttpLink } from 'apollo-link-http'
+import { HttpLink } from 'apollo-link-http'
 import * as fetch from 'cross-fetch'
 
 export default class GitHubLink extends HttpLink {
