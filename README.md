@@ -1,5 +1,7 @@
 # GraphQL Binding for GitHub
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/graphcool/graphql-binding-github.svg)](https://greenkeeper.io/)
+
 Embed GitHub's GraphQL API into your server application
 
 ## Install
