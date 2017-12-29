@@ -4,7 +4,7 @@
     "deploy": "now --public -e GITHUB_TOKEN && now alias && now rm --yes --safe graphql-binding-github"
   },
   "dependencies": {
-    "graphql-binding-github": "0.2.0",
+    "graphql-binding-github": "0.2.1",
     "graphql-import": "0.1.8",
     "graphql-yoga": "0.5.6"
   },

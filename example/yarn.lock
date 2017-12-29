@@ -453,20 +453,20 @@ graphcool-yml@^0.1.7:
     scuid "^1.0.2"
     yaml-ast-parser "^0.0.40"
 
-graphql-binding-github@0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/graphql-binding-github/-/graphql-binding-github-0.2.0.tgz#069eb20326f8696c01a1ced7d2a06f34b380d7b9"
+graphql-binding-github@0.2.1:
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/graphql-binding-github/-/graphql-binding-github-0.2.1.tgz#69b5129937fe9f17bef7db4cd01fcfcb7ad8b54e"
   dependencies:
     apollo-link "^1.0.7"
     apollo-link-http "^1.3.2"
     cross-fetch "^1.1.1"
     graphql "^0.12.3"
-    graphql-binding "^0.1.0"
+    graphql-binding "^0.2.0"
     graphql-tools "^2.14.1"
 
-graphql-binding@^0.1.0:
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/graphql-binding/-/graphql-binding-0.1.0.tgz#98e64f9ffdd4fdb245237c5969fe0975f2d91855"
+graphql-binding@^0.2.0:
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/graphql-binding/-/graphql-binding-0.2.1.tgz#171c78fe2cf893359f62fed14901f70e3f235420"
   dependencies:
     "@types/graphql" "0.11.7"
     graphql "^0.12.3"
