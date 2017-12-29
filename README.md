@@ -1,5 +1,7 @@
 # GraphQL Binding for GitHub
 
+[![Build Status](https://travis-ci.org/graphcool/graphql-binding-github.svg?branch=master)](https://travis-ci.org/graphcool/graphql-binding-github) [![npm version](https://badge.fury.io/js/graphql-binding-github.svg)](https://badge.fury.io/js/graphql-binding-github)
+
 Embed GitHub's GraphQL API into your server application
 
 ## Install
