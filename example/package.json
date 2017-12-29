@@ -6,7 +6,7 @@
   "dependencies": {
     "graphql-binding-github": "0.2.0",
     "graphql-import": "0.1.9",
-    "graphql-yoga": "0.5.6"
+    "graphql-yoga": "0.6.0"
   },
   "now": {
     "alias": "graphql-binding-github"
