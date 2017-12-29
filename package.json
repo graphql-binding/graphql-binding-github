@@ -1,6 +1,6 @@
 {
   "name": "graphql-binding-github",
-  "version": "0.2.0",
+  "version": "0.0.0-semantic-release",
   "main": "dist/index.js",
   "typings": "./dist/index.d.ts",
   "files": [
@@ -22,5 +22,9 @@
   "devDependencies": {
     "@types/graphql": "^0.11.7",
     "@types/node": "^8.5.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/graphcool/graphql-binding-github.git"
   }
 }
