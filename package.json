@@ -9,7 +9,8 @@
   ],
   "scripts": {
     "prepublish": "npm run build",
-    "build": "rm -rf dist && tsc -d"
+    "build": "rm -rf dist && tsc -d",
+    "test": "echo No tests yet"
   },
   "dependencies": {
     "apollo-link": "^1.0.7",
