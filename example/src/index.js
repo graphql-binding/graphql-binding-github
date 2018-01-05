@@ -1,6 +1,5 @@
 const { GitHub } = require('graphql-binding-github')
 const { GraphQLServer } = require('graphql-yoga')
-const { importSchema } = require('graphql-import')
 
 const favoriteRepos = [
   { owner: 'graphcool', name: 'graphql-yoga' },
@@ -10,7 +9,7 @@ const favoriteRepos = [
 const token = process.env.GITHUB_TOKEN || ''
 const github = new GitHub(token)
 
-const typeDefs = importSchema('schemas/app.graphql')
+const typeDefs = '.schemas/app.graphql'
 const resolvers = {
   Query: {
     hello: (parent, { name }) => `Hello ${name || 'World'}!`,
