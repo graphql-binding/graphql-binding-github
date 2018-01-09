@@ -79,6 +79,16 @@ graphql-tools@2.16.0:
     graphql-subscriptions "^0.5.6"
     uuid "^3.1.0"
 
+graphql-tools@2.17.0:
+  version "2.17.0"
+  resolved "https://registry.yarnpkg.com/graphql-tools/-/graphql-tools-2.17.0.tgz#96c3cf54236a245b90e5adc4abdce81a2b37d1da"
+  dependencies:
+    apollo-link "^1.0.0"
+    apollo-utilities "^1.0.1"
+    deprecated-decorator "^0.1.6"
+    graphql-subscriptions "^0.5.6"
+    uuid "^3.1.0"
+
 graphql@0.12.3:
   version "0.12.3"
   resolved "https://registry.yarnpkg.com/graphql/-/graphql-0.12.3.tgz#11668458bbe28261c0dcb6e265f515ba79f6ce07"
