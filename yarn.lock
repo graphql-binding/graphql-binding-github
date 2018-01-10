@@ -79,9 +79,9 @@ graphql-tools@2.16.0:
     graphql-subscriptions "^0.5.6"
     uuid "^3.1.0"
 
-graphql-tools@2.17.0:
-  version "2.17.0"
-  resolved "https://registry.yarnpkg.com/graphql-tools/-/graphql-tools-2.17.0.tgz#96c3cf54236a245b90e5adc4abdce81a2b37d1da"
+graphql-tools@2.18.0:
+  version "2.18.0"
+  resolved "https://registry.yarnpkg.com/graphql-tools/-/graphql-tools-2.18.0.tgz#8e2d6436f9adba1d579c1a1710ae95e7f5e7248b"
   dependencies:
     apollo-link "^1.0.0"
     apollo-utilities "^1.0.1"
