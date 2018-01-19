@@ -2,9 +2,9 @@
 # yarn lockfile v1
 
 
-"@types/graphql@0.11.8":
-  version "0.11.8"
-  resolved "https://registry.yarnpkg.com/@types/graphql/-/graphql-0.11.8.tgz#53ff3604e99db810dd43347f19fcd1c59725a7bb"
+"@types/graphql@0.12.1":
+  version "0.12.1"
+  resolved "https://registry.yarnpkg.com/@types/graphql/-/graphql-0.12.1.tgz#2c2f9a0da3cd23ee1ce7a6e6c9135ceeb9131c05"
 
 "@types/node@9.3.0":
   version "9.3.0"
