@@ -21,7 +21,7 @@
     "graphql-tools": "2.19.0"
   },
   "devDependencies": {
-    "@types/graphql": "0.12.2",
+    "@types/graphql": "0.12.3",
     "@types/node": "9.3.0",
     "typescript": "2.6.2"
   },
