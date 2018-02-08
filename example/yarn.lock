@@ -352,16 +352,16 @@ fresh@0.5.2:
   version "0.5.2"
   resolved "https://registry.yarnpkg.com/fresh/-/fresh-0.5.2.tgz#3d8cadd90d976569fa835ab1f8e4b23a105605a7"
 
-graphql-binding-github@0.3.4:
-  version "0.3.4"
-  resolved "https://registry.yarnpkg.com/graphql-binding-github/-/graphql-binding-github-0.3.4.tgz#9f597b304afad7d17a9b732759e169eacef6c1f8"
+graphql-binding-github@0.3.5:
+  version "0.3.5"
+  resolved "https://registry.yarnpkg.com/graphql-binding-github/-/graphql-binding-github-0.3.5.tgz#689c0d39b6675efe217ddae9b4d0e31ea161e3fd"
   dependencies:
     apollo-link "1.0.7"
     apollo-link-http "1.3.2"
     cross-fetch "1.1.1"
     graphql "0.13.0"
     graphql-binding "1.2.0"
-    graphql-tools "2.20.1"
+    graphql-tools "2.20.2"
 
 graphql-binding@1.2.0:
   version "1.2.0"
@@ -440,9 +440,9 @@ graphql-tools@2.18.0, graphql-tools@^2.18.0:
     graphql-subscriptions "^0.5.6"
     uuid "^3.1.0"
 
-graphql-tools@2.20.1:
-  version "2.20.1"
-  resolved "https://registry.yarnpkg.com/graphql-tools/-/graphql-tools-2.20.1.tgz#28bec66658c768c00867847408e873a06e6e11c7"
+graphql-tools@2.20.2:
+  version "2.20.2"
+  resolved "https://registry.yarnpkg.com/graphql-tools/-/graphql-tools-2.20.2.tgz#b953ce7d62bbf6a1ca947101883ae725e1f58e02"
   dependencies:
     apollo-link "^1.0.0"
     apollo-utilities "^1.0.1"
