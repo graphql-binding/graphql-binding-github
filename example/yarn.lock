@@ -71,13 +71,13 @@ apollo-cache-control@^0.0.x:
   dependencies:
     graphql-extensions "^0.0.x"
 
-apollo-link-http@1.3.2:
-  version "1.3.2"
-  resolved "https://registry.yarnpkg.com/apollo-link-http/-/apollo-link-http-1.3.2.tgz#63537ee5ecf9c004efb0317f1222b7dbc6f21559"
+apollo-link-http@1.3.3:
+  version "1.3.3"
+  resolved "https://registry.yarnpkg.com/apollo-link-http/-/apollo-link-http-1.3.3.tgz#cb792c73266607e6361c8c1cc4dd42d405ca08f1"
   dependencies:
-    apollo-link "^1.0.7"
+    apollo-link "^1.1.0"
 
-apollo-link@1.1.0:
+apollo-link@1.1.0, apollo-link@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/apollo-link/-/apollo-link-1.1.0.tgz#9d573b16387ee0d8e147b1f319e42c8c562f18f7"
   dependencies:
@@ -85,7 +85,7 @@ apollo-link@1.1.0:
     apollo-utilities "^1.0.0"
     zen-observable "^0.7.0"
 
-apollo-link@^1.0.0, apollo-link@^1.0.7:
+apollo-link@^1.0.0:
   version "1.0.7"
   resolved "https://registry.yarnpkg.com/apollo-link/-/apollo-link-1.0.7.tgz#42cd38a7378332fc3e41a214ff6a6e5e703a556f"
   dependencies:
@@ -360,12 +360,12 @@ fresh@0.5.2:
   version "0.5.2"
   resolved "https://registry.yarnpkg.com/fresh/-/fresh-0.5.2.tgz#3d8cadd90d976569fa835ab1f8e4b23a105605a7"
 
-graphql-binding-github@0.3.6:
-  version "0.3.6"
-  resolved "https://registry.yarnpkg.com/graphql-binding-github/-/graphql-binding-github-0.3.6.tgz#8709daadece6d7f688ae7ab2ec924cee78ada952"
+graphql-binding-github@0.3.7:
+  version "0.3.7"
+  resolved "https://registry.yarnpkg.com/graphql-binding-github/-/graphql-binding-github-0.3.7.tgz#1cd9ea362f14e1f18e5ee9a44742da68f245aa49"
   dependencies:
     apollo-link "1.1.0"
-    apollo-link-http "1.3.2"
+    apollo-link-http "1.3.3"
     cross-fetch "1.1.1"
     graphql "0.13.0"
     graphql-binding "1.2.0"
