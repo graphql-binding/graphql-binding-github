@@ -1,6 +1,6 @@
 # GraphQL Binding for GitHub
 
-[![CircleCI](https://circleci.com/gh/graphcool/graphql-binding-github.svg?style=shield)](https://circleci.com/gh/graphcool/graphql-binding-github) [![npm version](https://badge.fury.io/js/graphql-binding-github.svg)](https://badge.fury.io/js/graphql-binding-github)
+[![CircleCI](https://circleci.com/gh/graphql-binding/graphql-binding-github.svg?style=shield)](https://circleci.com/gh/graphql-binding/graphql-binding-github) [![npm version](https://badge.fury.io/js/graphql-binding-github.svg)](https://badge.fury.io/js/graphql-binding-github)
 
 Embed GitHub's GraphQL API into your server application
 
