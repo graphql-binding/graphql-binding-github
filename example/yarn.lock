@@ -419,23 +419,23 @@ fresh@0.5.2:
   version "0.5.2"
   resolved "https://registry.yarnpkg.com/fresh/-/fresh-0.5.2.tgz#3d8cadd90d976569fa835ab1f8e4b23a105605a7"
 
-graphql-binding-github@0.3.12:
-  version "0.3.12"
-  resolved "https://registry.yarnpkg.com/graphql-binding-github/-/graphql-binding-github-0.3.12.tgz#fbe4ffaa56978a2c991ddcda230b94b850ff6abd"
+graphql-binding-github@0.3.13:
+  version "0.3.13"
+  resolved "https://registry.yarnpkg.com/graphql-binding-github/-/graphql-binding-github-0.3.13.tgz#3f58a7fcc02f7586bfa083da878814d3517ea804"
   dependencies:
     apollo-link "1.2.0"
     apollo-link-http "1.3.3"
     cross-fetch "1.1.1"
     graphql "0.13.1"
-    graphql-binding "1.2.2"
+    graphql-binding "1.2.3"
     graphql-tools "2.21.0"
 
-graphql-binding@1.2.2:
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/graphql-binding/-/graphql-binding-1.2.2.tgz#81a0439c3e951333d0cebde1887f418297a9193e"
+graphql-binding@1.2.3:
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/graphql-binding/-/graphql-binding-1.2.3.tgz#36c90649e652b59cf44f89e997ad96767cff6cb8"
   dependencies:
     graphql-tools "2.21.0"
-    iterall "1.2.0"
+    iterall "1.2.1"
 
 graphql-config@1.1.7:
   version "1.1.7"
@@ -598,7 +598,11 @@ iterall@1.1.x:
   version "1.1.4"
   resolved "https://registry.yarnpkg.com/iterall/-/iterall-1.1.4.tgz#0db40d38fdcf53ae14dc8ec674e62ab190d52cfc"
 
-iterall@1.2.0, iterall@^1.2.0:
+iterall@1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/iterall/-/iterall-1.2.1.tgz#59a347ae8001d2d4bc546b8487ca755d61849965"
+
+iterall@^1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/iterall/-/iterall-1.2.0.tgz#434e9f41f0b99911ab9c3d49d95f0e079176a2a2"
 
