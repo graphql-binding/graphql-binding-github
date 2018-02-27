@@ -418,20 +418,20 @@ fresh@0.5.2:
   version "0.5.2"
   resolved "https://registry.yarnpkg.com/fresh/-/fresh-0.5.2.tgz#3d8cadd90d976569fa835ab1f8e4b23a105605a7"
 
-graphql-binding-github@0.3.14:
-  version "0.3.14"
-  resolved "https://registry.yarnpkg.com/graphql-binding-github/-/graphql-binding-github-0.3.14.tgz#7cb3af2f4e42360c76487e2deda8bdfa222c1015"
+graphql-binding-github@0.3.15:
+  version "0.3.15"
+  resolved "https://registry.yarnpkg.com/graphql-binding-github/-/graphql-binding-github-0.3.15.tgz#938f4997d6a232491184481f95f1d4ba632dbdcd"
   dependencies:
     apollo-link "1.2.1"
     apollo-link-http "1.3.3"
     cross-fetch "1.1.1"
     graphql "0.13.1"
-    graphql-binding "1.2.3"
+    graphql-binding "1.2.4"
     graphql-tools "2.21.0"
 
-graphql-binding@1.2.3:
-  version "1.2.3"
-  resolved "https://registry.yarnpkg.com/graphql-binding/-/graphql-binding-1.2.3.tgz#36c90649e652b59cf44f89e997ad96767cff6cb8"
+graphql-binding@1.2.4:
+  version "1.2.4"
+  resolved "https://registry.yarnpkg.com/graphql-binding/-/graphql-binding-1.2.4.tgz#ac1af63d98fca412dcd52ca04928cab2d6d08e0a"
   dependencies:
     graphql-tools "2.21.0"
     iterall "1.2.1"
