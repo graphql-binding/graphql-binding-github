@@ -6,9 +6,9 @@
   version "0.12.7"
   resolved "https://registry.yarnpkg.com/@types/graphql/-/graphql-0.12.7.tgz#392e46d6c1bceb7d68c117233cea787dde72780c"
 
-"@types/node@9.6.0":
-  version "9.6.0"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-9.6.0.tgz#d3480ee666df9784b1001a1872a2f6ccefb6c2d7"
+"@types/node@9.6.1":
+  version "9.6.1"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-9.6.1.tgz#e2d374ef15b315b48e7efc308fa1a7cd51faa06c"
 
 "@types/node@^9.4.6":
   version "9.4.6"

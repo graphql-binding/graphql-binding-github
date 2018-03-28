@@ -22,7 +22,7 @@
   },
   "devDependencies": {
     "@types/graphql": "0.12.7",
-    "@types/node": "9.6.0",
+    "@types/node": "9.6.1",
     "typescript": "2.8.1"
   },
   "repository": {
