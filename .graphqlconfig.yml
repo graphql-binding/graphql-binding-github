@@ -6,5 +6,5 @@ extensions:
       headers:
         Authorization: "Bearer ${env:GITHUB_TOKEN}"
   codegen:
-    generator: binding-http
-    source-schema: schema-with-import-statement.graphql
+    generator: binding
+    target: src/generated-binding.graphql
