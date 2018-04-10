@@ -430,23 +430,24 @@ fresh@0.5.2:
   version "0.5.2"
   resolved "https://registry.yarnpkg.com/fresh/-/fresh-0.5.2.tgz#3d8cadd90d976569fa835ab1f8e4b23a105605a7"
 
-graphql-binding-github@0.3.19:
-  version "0.3.19"
-  resolved "https://registry.yarnpkg.com/graphql-binding-github/-/graphql-binding-github-0.3.19.tgz#5e71a6f5422e774de51be66726f476746b8766a7"
+graphql-binding-github@0.3.20:
+  version "0.3.20"
+  resolved "https://registry.yarnpkg.com/graphql-binding-github/-/graphql-binding-github-0.3.20.tgz#ba27ff3f03f5f889e4cb3f1044a4d2620c9707f3"
   dependencies:
     apollo-link "1.2.1"
     apollo-link-http "1.3.3"
     cross-fetch "2.1.0"
     graphql "0.13.2"
-    graphql-binding "1.2.5"
+    graphql-binding "1.3.0"
     graphql-tools "2.21.0"
 
-graphql-binding@1.2.5:
-  version "1.2.5"
-  resolved "https://registry.yarnpkg.com/graphql-binding/-/graphql-binding-1.2.5.tgz#1c45b9da055cb0722f0348b6354be2e11b0a8c17"
+graphql-binding@1.3.0:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/graphql-binding/-/graphql-binding-1.3.0.tgz#6149e151bddc7f0b00cc38e787da39c7f1268d23"
   dependencies:
     graphql-tools "2.21.0"
     iterall "1.2.2"
+    object-path-immutable "^1.0.1"
 
 graphql-config@2.0.0:
   version "2.0.0"
@@ -717,6 +718,10 @@ node-fetch@2.1.1:
 object-assign@^4:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/object-assign/-/object-assign-4.1.1.tgz#2109adc7965887cfc05cbbd442cac8bfbb360863"
+
+object-path-immutable@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/object-path-immutable/-/object-path-immutable-1.0.1.tgz#3c424052be3c54ec82def03f1b11b0c6e085c7ff"
 
 object-path@^0.11.4:
   version "0.11.4"
