@@ -55,12 +55,13 @@ deprecated-decorator@^0.1.6:
   version "0.1.6"
   resolved "https://registry.yarnpkg.com/deprecated-decorator/-/deprecated-decorator-0.1.6.tgz#00966317b7a12fe92f3cc831f7583af329b86c37"
 
-graphql-binding@1.2.5:
-  version "1.2.5"
-  resolved "https://registry.yarnpkg.com/graphql-binding/-/graphql-binding-1.2.5.tgz#1c45b9da055cb0722f0348b6354be2e11b0a8c17"
+graphql-binding@1.3.0:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/graphql-binding/-/graphql-binding-1.3.0.tgz#6149e151bddc7f0b00cc38e787da39c7f1268d23"
   dependencies:
     graphql-tools "2.21.0"
     iterall "1.2.2"
+    object-path-immutable "^1.0.1"
 
 graphql-tools@2.21.0:
   version "2.21.0"
@@ -89,6 +90,10 @@ iterall@^1.1.3:
 node-fetch@2.1.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.1.1.tgz#369ca70b82f50c86496104a6c776d274f4e4a2d4"
+
+object-path-immutable@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/object-path-immutable/-/object-path-immutable-1.0.1.tgz#3c424052be3c54ec82def03f1b11b0c6e085c7ff"
 
 typescript@2.8.1:
   version "2.8.1"
