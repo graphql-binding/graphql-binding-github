@@ -313,12 +313,12 @@ cross-fetch@0.0.8:
     node-fetch "1.7.3"
     whatwg-fetch "2.0.3"
 
-cross-fetch@2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/cross-fetch/-/cross-fetch-2.1.0.tgz#7d4ea7e10a4f3bb73d5c2f0a3791ec3752d39b50"
+cross-fetch@2.1.1:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/cross-fetch/-/cross-fetch-2.1.1.tgz#c41b37af8e62ca1c6ad0bd519dcd0a16c75b6f1f"
   dependencies:
-    node-fetch "2.1.1"
-    whatwg-fetch "2.0.3"
+    node-fetch "2.1.2"
+    whatwg-fetch "2.0.4"
 
 debug@2.6.9:
   version "2.6.9"
@@ -442,13 +442,13 @@ fresh@0.5.2:
   version "0.5.2"
   resolved "https://registry.yarnpkg.com/fresh/-/fresh-0.5.2.tgz#3d8cadd90d976569fa835ab1f8e4b23a105605a7"
 
-graphql-binding-github@0.3.21:
-  version "0.3.21"
-  resolved "https://registry.yarnpkg.com/graphql-binding-github/-/graphql-binding-github-0.3.21.tgz#3527d7a62532be314d2c5411333fb6c530863b55"
+graphql-binding-github@0.3.22:
+  version "0.3.22"
+  resolved "https://registry.yarnpkg.com/graphql-binding-github/-/graphql-binding-github-0.3.22.tgz#961120f135c0416b9b8aaa319b500aa52c135ea3"
   dependencies:
     apollo-link "1.2.2"
     apollo-link-http "1.3.3"
-    cross-fetch "2.1.0"
+    cross-fetch "2.1.1"
     graphql "0.13.2"
     graphql-binding "1.3.0"
     graphql-tools "2.21.0"
@@ -730,9 +730,9 @@ node-fetch@1.7.3:
     encoding "^0.1.11"
     is-stream "^1.0.1"
 
-node-fetch@2.1.1:
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.1.1.tgz#369ca70b82f50c86496104a6c776d274f4e4a2d4"
+node-fetch@2.1.2:
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.1.2.tgz#ab884e8e7e57e38a944753cec706f788d1768bb5"
 
 object-assign@^4:
   version "4.1.1"
@@ -939,6 +939,10 @@ vary@^1, vary@~1.1.2:
 whatwg-fetch@2.0.3:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/whatwg-fetch/-/whatwg-fetch-2.0.3.tgz#9c84ec2dcf68187ff00bc64e1274b442176e1c84"
+
+whatwg-fetch@2.0.4:
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/whatwg-fetch/-/whatwg-fetch-2.0.4.tgz#dde6a5df315f9d39991aa17621853d720b85566f"
 
 ws@^3.0.0:
   version "3.3.2"
