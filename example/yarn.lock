@@ -104,6 +104,14 @@ apollo-link-http@1.3.3:
   dependencies:
     apollo-link "^1.1.0"
 
+apollo-link@1.2.1, apollo-link@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/apollo-link/-/apollo-link-1.2.1.tgz#c120b16059f9bd93401b9f72b94d2f80f3f305d2"
+  dependencies:
+    "@types/node" "^9.4.6"
+    apollo-utilities "^1.0.0"
+    zen-observable-ts "^0.8.6"
+
 apollo-link@1.2.2:
   version "1.2.2"
   resolved "https://registry.yarnpkg.com/apollo-link/-/apollo-link-1.2.2.tgz#54c84199b18ac1af8d63553a68ca389c05217a03"
@@ -119,14 +127,6 @@ apollo-link@^1.1.0:
     "@types/zen-observable" "0.5.3"
     apollo-utilities "^1.0.0"
     zen-observable "^0.7.0"
-
-apollo-link@^1.2.1:
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/apollo-link/-/apollo-link-1.2.1.tgz#c120b16059f9bd93401b9f72b94d2f80f3f305d2"
-  dependencies:
-    "@types/node" "^9.4.6"
-    apollo-utilities "^1.0.0"
-    zen-observable-ts "^0.8.6"
 
 apollo-server-core@^1.3.6:
   version "1.3.6"
@@ -446,22 +446,22 @@ fresh@0.5.2:
   version "0.5.2"
   resolved "https://registry.yarnpkg.com/fresh/-/fresh-0.5.2.tgz#3d8cadd90d976569fa835ab1f8e4b23a105605a7"
 
-graphql-binding-github@0.3.22:
-  version "0.3.22"
-  resolved "https://registry.yarnpkg.com/graphql-binding-github/-/graphql-binding-github-0.3.22.tgz#961120f135c0416b9b8aaa319b500aa52c135ea3"
+graphql-binding-github@0.3.23:
+  version "0.3.23"
+  resolved "https://registry.yarnpkg.com/graphql-binding-github/-/graphql-binding-github-0.3.23.tgz#eb7a55177cc8e58d8d7426ff53eaaecfbf3ef055"
   dependencies:
     apollo-link "1.2.2"
     apollo-link-http "1.3.3"
     cross-fetch "2.1.1"
     graphql "0.13.2"
-    graphql-binding "1.3.0"
+    graphql-binding "1.3.1"
     graphql-tools "2.21.0"
 
-graphql-binding@1.3.0:
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/graphql-binding/-/graphql-binding-1.3.0.tgz#6149e151bddc7f0b00cc38e787da39c7f1268d23"
+graphql-binding@1.3.1:
+  version "1.3.1"
+  resolved "https://registry.yarnpkg.com/graphql-binding/-/graphql-binding-1.3.1.tgz#ce415fb068042422e8a980df0cdb0f5106f5fb47"
   dependencies:
-    graphql-tools "2.21.0"
+    graphql-tools "3.0.0"
     iterall "1.2.2"
     object-path-immutable "^1.0.1"
 
@@ -540,6 +540,16 @@ graphql-tools@2.21.0:
   resolved "https://registry.yarnpkg.com/graphql-tools/-/graphql-tools-2.21.0.tgz#c0d0fbda6f40a87c8d267a2989ade2ae8b9a288e"
   dependencies:
     apollo-link "^1.1.0"
+    apollo-utilities "^1.0.1"
+    deprecated-decorator "^0.1.6"
+    iterall "^1.1.3"
+    uuid "^3.1.0"
+
+graphql-tools@3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/graphql-tools/-/graphql-tools-3.0.0.tgz#ff22ad15315fc268de8639d03936b911d78b9e9b"
+  dependencies:
+    apollo-link "1.2.1"
     apollo-utilities "^1.0.1"
     deprecated-decorator "^0.1.6"
     iterall "^1.1.3"
