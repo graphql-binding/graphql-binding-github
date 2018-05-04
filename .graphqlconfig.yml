@@ -6,6 +6,9 @@ extensions:
       headers:
         Authorization: "Bearer ${env:GITHUB_TOKEN}"
   codegen:
-    generator: graphql-codegen-binding
-    target: src/generated-binding.ts
+    generator: graphql-binding
     language: typescript
+    input:
+      schema: src/schema.ts
+    output:
+      binding: src/generated-binding.ts
