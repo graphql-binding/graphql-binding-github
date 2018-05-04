@@ -13,17 +13,17 @@
     "test": "echo No tests yet"
   },
   "dependencies": {
-    "apollo-link": "1.2.1",
+    "apollo-link": "1.2.2",
+    "cross-fetch": "2.1.1",
     "apollo-link-http": "1.5.3",
-    "cross-fetch": "2.1.0",
     "graphql": "0.13.2",
     "graphql-binding": "1.2.5",
     "graphql-tools": "2.23.1"
   },
   "devDependencies": {
     "@types/graphql": "0.13.0",
-    "@types/node": "9.6.2",
-    "typescript": "2.8.1"
+    "@types/node": "9.6.11",
+    "typescript": "2.8.3"
   },
   "repository": {
     "type": "git",
