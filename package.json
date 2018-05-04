@@ -8,7 +8,7 @@
     "schema"
   ],
   "scripts": {
-    "prepare": "npm run build",
+    "prepare": "npm run build; cp src/schema.graphql dist/schema.graphql",
     "build": "rm -rf dist && tsc -d",
     "test": "echo No tests yet"
   },
@@ -17,7 +17,7 @@
     "apollo-link-http": "1.5.3",
     "cross-fetch": "2.1.1",
     "graphql": "0.13.2",
-    "graphql-binding": "^1.4.0-beta.21",
+    "graphql-binding": "^1.4.0-beta.22",
     "graphql-tools": "2.23.1"
   },
   "devDependencies": {
