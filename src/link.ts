@@ -1,7 +1,7 @@
 import { HttpLink } from 'apollo-link-http'
 import * as fetch from 'cross-fetch'
 
-export default class GitHubLink extends HttpLink {
+export class GitHubLink extends HttpLink {
   constructor(token: string) {
     if (!token) {
       throw new Error(
@@ -10,7 +10,7 @@ export default class GitHubLink extends HttpLink {
     }
     super({
       uri: 'https://api.github.com/graphql',
-      headers: { Authorization: `Bearer ${token}` },
+      headers: { Authorization: `token ${token}` },
       fetch,
     })
   }

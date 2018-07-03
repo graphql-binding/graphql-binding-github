@@ -1,0 +1,14 @@
+schemaPath: src/schema.graphql
+extensions:
+  endpoints:
+    default:
+      url: https://api.github.com/graphql
+      headers:
+        Authorization: "Bearer ${env:GITHUB_TOKEN}"
+  codegen:
+    generator: graphql-binding
+    language: typescript
+    input:
+      schema: src/schema.ts
+    output:
+      binding: src/generated-binding.ts
