@@ -24,7 +24,7 @@
     "graphql-cli": "2.16.4",
     "@types/graphql": "0.13.1",
     "@types/node": "10.1.4",
-    "typescript": "2.8.3"
+    "typescript": "2.9.2"
   },
   "repository": {
     "type": "git",
