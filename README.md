@@ -15,7 +15,7 @@ yarn add graphql-binding-github
 See [example directory](example) for full example application.
 
 ```js
-const { GitHub } = require('graphql-binding-github')
+const { Github } = require('graphql-binding-github')
 const { GraphQLServer } = require('graphql-yoga')
 const { importSchema } = require('graphql-import')
 
@@ -25,7 +25,7 @@ const favoriteRepos = [
 ]
 
 const token = '__ENTER_YOUR_GITHUB_TOKEN__'
-const github = new GitHub(token)
+const github = new Github(token)
 
 const typeDefs = importSchema('schemas/app.graphql')
 const resolvers = {
