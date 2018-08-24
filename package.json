@@ -23,7 +23,7 @@
   "devDependencies": {
     "graphql-cli": "2.16.5",
     "@types/graphql": "0.13.4",
-    "@types/node": "10.9.0",
+    "@types/node": "10.9.1",
     "typescript": "3.0.1"
   },
   "repository": {
