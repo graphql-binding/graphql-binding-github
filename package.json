@@ -13,8 +13,8 @@
     "test": "echo No tests yet"
   },
   "dependencies": {
-    "apollo-link": "1.2.2",
-    "apollo-link-http": "1.5.4",
+    "apollo-link": "1.2.3",
+    "apollo-link-http": "1.5.5",
     "cross-fetch": "2.1.1",
     "graphql": "14.0.2",
     "graphql-binding": "1.4.0-beta.23",
