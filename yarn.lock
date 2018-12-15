@@ -1120,9 +1120,9 @@ graphql-cli-prepare@1.4.19:
     graphql-static-binding "0.9.3"
     lodash "4.17.5"
 
-graphql-cli@3.0.1:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/graphql-cli/-/graphql-cli-3.0.1.tgz#7d0daa8adcd08955953b00c97a2f2816edbb07ec"
+graphql-cli@3.0.2:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/graphql-cli/-/graphql-cli-3.0.2.tgz#44f62d2b5fa7e2cf9857c2dae604e84539efdbf5"
   dependencies:
     adm-zip "0.4.13"
     apollo-codegen "^0.20.2"
@@ -1138,7 +1138,7 @@ graphql-cli@3.0.1:
     graphql-config "2.2.1"
     graphql-config-extension-graphcool "1.0.11"
     graphql-config-extension-prisma "0.2.5"
-    graphql-playground-middleware-express "1.7.7"
+    graphql-playground-middleware-express "1.7.8"
     graphql-schema-linter "0.1.6"
     inquirer "6.2.0"
     is-url-superb "2.0.0"
@@ -1201,15 +1201,15 @@ graphql-import@^0.7.1:
     lodash "^4.17.4"
     resolve-from "^4.0.0"
 
-graphql-playground-html@1.6.5:
-  version "1.6.5"
-  resolved "https://registry.yarnpkg.com/graphql-playground-html/-/graphql-playground-html-1.6.5.tgz#0de1a68db891f7356312cf03dcf371d67388e95a"
+graphql-playground-html@1.6.6:
+  version "1.6.6"
+  resolved "https://registry.yarnpkg.com/graphql-playground-html/-/graphql-playground-html-1.6.6.tgz#f4efe0915a01dc79154b836fe3c980cebb7b56d2"
 
-graphql-playground-middleware-express@1.7.7:
-  version "1.7.7"
-  resolved "https://registry.yarnpkg.com/graphql-playground-middleware-express/-/graphql-playground-middleware-express-1.7.7.tgz#554be59abae79566eb8a20d82d3c715ee0776097"
+graphql-playground-middleware-express@1.7.8:
+  version "1.7.8"
+  resolved "https://registry.yarnpkg.com/graphql-playground-middleware-express/-/graphql-playground-middleware-express-1.7.8.tgz#eb05f26f2b23084e4bb29ce41f2c5983ce870dfc"
   dependencies:
-    graphql-playground-html "1.6.5"
+    graphql-playground-html "1.6.6"
 
 graphql-request@^1.5.0:
   version "1.5.2"
