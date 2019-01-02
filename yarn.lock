@@ -1029,6 +1029,17 @@ glob@^7.0.5, glob@^7.1.2:
     once "^1.3.0"
     path-is-absolute "^1.0.0"
 
+glob@^7.1.3:
+  version "7.1.3"
+  resolved "https://registry.yarnpkg.com/glob/-/glob-7.1.3.tgz#3960832d3f1574108342dafd3a67b332c0969df1"
+  dependencies:
+    fs.realpath "^1.0.0"
+    inflight "^1.0.4"
+    inherits "2"
+    minimatch "^3.0.4"
+    once "^1.3.0"
+    path-is-absolute "^1.0.0"
+
 global-dirs@^0.1.0:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/global-dirs/-/global-dirs-0.1.1.tgz#b319c0dd4607f353f3be9cca4c72fc148c49f445"
@@ -1118,9 +1129,9 @@ graphql-cli-prepare@1.4.19:
     graphql-static-binding "0.9.3"
     lodash "4.17.5"
 
-graphql-cli@3.0.3:
-  version "3.0.3"
-  resolved "https://registry.yarnpkg.com/graphql-cli/-/graphql-cli-3.0.3.tgz#f7007723099d22ad2465f30cb43bbf40b8813bb7"
+graphql-cli@3.0.4:
+  version "3.0.4"
+  resolved "https://registry.yarnpkg.com/graphql-cli/-/graphql-cli-3.0.4.tgz#1d72d61699aa236c4f1f829809d574664792014b"
   dependencies:
     adm-zip "0.4.13"
     apollo-codegen "^0.20.2"
@@ -1150,7 +1161,7 @@ graphql-cli@3.0.3:
     ora "^3.0.0"
     parse-github-url "^1.0.2"
     request "^2.88.0"
-    rimraf "2.6.2"
+    rimraf "2.6.3"
     source-map-support "^0.5.9"
     tmp-graphql-config-extension-openapi "^1.0.7"
     update-notifier "^2.5.0"
@@ -2450,7 +2461,13 @@ restore-cursor@^2.0.0:
     onetime "^2.0.0"
     signal-exit "^3.0.2"
 
-rimraf@2.6.2, rimraf@^2.6.2:
+rimraf@2.6.3:
+  version "2.6.3"
+  resolved "https://registry.yarnpkg.com/rimraf/-/rimraf-2.6.3.tgz#b2d104fe0d8fb27cf9e0a1cda8262dd3833c6cab"
+  dependencies:
+    glob "^7.1.3"
+
+rimraf@^2.6.2:
   version "2.6.2"
   resolved "https://registry.yarnpkg.com/rimraf/-/rimraf-2.6.2.tgz#2ed8150d24a16ea8651e6d6ef0f47c4158ce7a36"
   dependencies:
