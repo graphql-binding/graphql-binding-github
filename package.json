@@ -16,13 +16,13 @@
     "apollo-link": "1.2.2",
     "apollo-link-http": "1.5.4",
     "cross-fetch": "2.1.1",
-    "graphql": "14.0.2",
+    "graphql": "14.1.0",
     "graphql-binding": "1.4.0-beta.23",
     "graphql-tools": "2.23.1"
   },
   "devDependencies": {
     "graphql-cli": "3.0.4",
-    "@types/graphql": "14.0.4",
+    "@types/graphql": "14.0.5",
     "@types/node": "10.12.18",
     "typescript": "3.2.2"
   },
