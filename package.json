@@ -18,7 +18,7 @@
     "cross-fetch": "2.1.1",
     "graphql": "14.5.8",
     "graphql-binding": "1.4.0-beta.23",
-    "graphql-tools": "2.23.1"
+    "graphql-tools": "5.0.0"
   },
   "devDependencies": {
     "graphql-cli": "3.0.14",
