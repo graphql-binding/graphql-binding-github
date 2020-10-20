@@ -829,8 +829,8 @@ object-path-immutable@^1.0.1:
   resolved "https://registry.yarnpkg.com/object-path-immutable/-/object-path-immutable-1.0.1.tgz#3c424052be3c54ec82def03f1b11b0c6e085c7ff"
 
 object-path@^0.11.4:
-  version "0.11.4"
-  resolved "https://registry.yarnpkg.com/object-path/-/object-path-0.11.4.tgz#370ae752fbf37de3ea70a861c23bba8915691949"
+  version "0.11.5"
+  resolved "https://registry.yarnpkg.com/object-path/-/object-path-0.11.5.tgz#d4e3cf19601a5140a55a16ad712019a9c50b577a"
 
 on-finished@~2.3.0:
   version "2.3.0"
